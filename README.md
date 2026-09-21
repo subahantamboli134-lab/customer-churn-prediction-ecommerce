@@ -59,30 +59,31 @@ A historical cutoff and a later observation period are used so future customer a
 - Medium Risk: **207**
 - High Risk: **0**
 
-## Files
+## Repository Files
 
 - `customer_churn_project.py` — complete Python project code
-- `IBM_Masterclass_Final_Project.ipynb` — Google Colab notebook
+- `Customer_Churn_Prediction.ipynb` — Google Colab notebook
 - `requirements.txt` — required Python libraries
-- `PROJECT_REPORT.pdf` — project report
-- `customer_level_churn_dataset.csv` — customer-level model results
 - `top_20_risk_customers.csv` — customers with the highest predicted churn risk
+- `.gitignore` — files Git should ignore
+
+The Python code also generates customer-level output CSV files when it is run.
 
 ## How to Run
 
-1. Install the required libraries:
+Install the libraries:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Run:
+Then run:
 
 ```bash
 python customer_churn_project.py
 ```
 
-You can also open the `.ipynb` notebook in Google Colab and run it there.
+You can also open `Customer_Churn_Prediction.ipynb` in Google Colab.
 
 ## Tools Used
 
@@ -97,4 +98,4 @@ You can also open the `.ipynb` notebook in Google Colab and run it there.
 
 The model can help prioritize retention efforts by identifying customers with relatively higher predicted churn probability.
 
-The model is a learning and analysis project. Its predictions show statistical patterns and should not be treated as proof of why a customer stops purchasing.
+This is a learning and analysis project. The predictions show statistical patterns and should not be treated as proof of why a customer stops purchasing.
